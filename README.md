@@ -64,3 +64,12 @@ Next Steps
 ==========
 
 Read the README file in each of the subdirectories for more information about what goes in those directories.
+
+
+First run prepare to install chef on the server
+
+knife solo prepare -i key/ssh_key.pem host_username@host
+
+then cook the recepies
+
+knife solo cook -i key/ssh_key.pem host_username@host
